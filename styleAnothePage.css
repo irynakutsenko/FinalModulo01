@@ -1,0 +1,35 @@
+body {
+    background-color: burlywood;
+}
+
+#pTitle {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#pDescription {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+#favorites {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.favorite {
+    width: 27%;
+    background-color: bisque;
+    margin: 25px;
+    padding: 15px;
+    border-radius: 15px;
+}
